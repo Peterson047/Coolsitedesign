@@ -1,0 +1,44 @@
+body{
+    border: none;
+    background-image: url('background.svg');
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.box{
+    width: 50%;
+    height: 450px;    
+    background-color: #000000b7;
+    margin-left: 25%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+   border-radius: 30px;
+}
+.text{
+    width: 30%;
+    height: 400px;
+    background-color: aliceblue;
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 2%;
+    border-radius: 30px;
+}
+.photo{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    float: right;
+    margin-top: 5%;
+    margin-right: 5%;
+    border-radius: 50%;
+}
+.name{
+    width:200px ;
+    height: 250px;
+    background-color: crimson;
+    float: right;
+    position: inherit;
+}
